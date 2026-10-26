@@ -1,0 +1,3 @@
+# Analysis Question
+
+A linked-list stack pushes elements at the head because inserting a new node at the beginning takes O(1) time and does not require traversing the list. Popping from the head is also O(1), making stack operations efficient. If the stack pushes at the tail without maintaining additional references, inserting an element may require traversing the entire list. The array queue must be circular because it allows the queue to reuse empty spaces at the beginning of the array after elements are dequeued. This prevents wasted space and allows enqueue operations to continue without shifting the remaining elements.
